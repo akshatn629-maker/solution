@@ -1,0 +1,15 @@
+# Ignore Windows executable files
+*.exe
+*.dll
+*.bat
+*.cmd
+
+# Common build output folders
+bin/
+obj/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
