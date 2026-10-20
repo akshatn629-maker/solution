@@ -1,0 +1,27 @@
+ question :
+ 
+ pridict the output:
+int a = 5, b = 2;
+    float c = a / b;
+    float d = (float)a / b;
+    int x = 5;
+    int y = x++ + ++x;
+    printf("%f %f %d %d", c, d, x, y);
+    
+    Ans :
+
+    x=7
+    y=5+6=12
+    c=2.0
+    d=2.5
+
+{forc-->in linethe value of c will be int formate so the ans is 2.0 not 2.5
+
+fordin line 6:the value is now assigned as float so the ans we get is 2.5,    
+
+for value of x , first x is assigened as 5 then in line 8 x increases by 1 with x++, then by 1 more with
+ ++x,so it became 5+1+1=7
+
+ for y: first the value is puted 5 in place of x, then it became 6 with the x++ , then x is now 6 and with 
+ ++x incriment it became 7; so the final answer is 
+ 5+7=12
