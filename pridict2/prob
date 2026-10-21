@@ -1,0 +1,16 @@
+//pridict the output of the given c programm//
+queston :
+
+int a=10,b=3;
+printf("%d %d %f %d\n", a/b,a%b.(float)a/b, a/b*b+a%b);
+
+
+Ans:
+output 
+a/b= 3
+
+a%b= 1
+
+(float)a/b = 3.3333333*
+
+a/b*b+a%b = 10
