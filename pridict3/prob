@@ -1,0 +1,14 @@
+problem:
+
+int x=5+3*2-8/4%3;
+int y=(5+3)*(2-8)/(4%3);
+
+printf("x=%d",x);
+printf("y=%d",y);
+
+
+Ans:
+
+x will give : 9
+
+y will give :-48
